@@ -1,8 +1,8 @@
 ---
-title       : Test title 
-subtitle    : sub test title
-author      : me
-job         : my job dude
+title       : This is the title
+subtitle    : 
+author      : Will Harris
+job         : 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
 hitheme     : tomorrow      # 
@@ -21,6 +21,6 @@ knit        : slidify::knit2slides
 
 ## Slide 2
 
-
+##Test 123
 
 

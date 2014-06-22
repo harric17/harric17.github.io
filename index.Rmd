@@ -1,6 +1,7 @@
 ---
-title       : Class Project, June 2014
+title       : Class Project
 subtitle    : Practical Machine Learning/Data Products
+subtitle    : June 2014
 author      : Will Harris
 job         : 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}

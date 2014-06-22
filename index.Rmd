@@ -33,7 +33,7 @@ There was substantial data management required for this analysis.  First, five v
 ## Results
 
 Table 1: Confusion matrix from OOB data
-```{r, results='asis', echo=FALSE}
+```{r, echo=FALSE}
 modFit$confusion
 ```
 

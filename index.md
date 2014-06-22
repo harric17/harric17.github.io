@@ -33,10 +33,13 @@ There was substantial data management required for this analysis.  First, five v
 ## Results
 
 Table 1: Confusion matrix from OOB data
-    A   B   C   D   E class.error
-A 851   1   1   0   1    0.003513
-B  18 535   9   0   1    0.049734
-C   0  12 514   2   0    0.026515
-D   1   0  22 469   2    0.050607
-E   0   1   2   6 552    0.016043
+
+```
+##     A   B   C   D   E class.error
+## A 851   1   1   0   1    0.003513
+## B  18 535   9   0   1    0.049734
+## C   0  12 514   2   0    0.026515
+## D   1   0  22 469   2    0.050607
+## E   0   1   2   6 552    0.016043
+```
 

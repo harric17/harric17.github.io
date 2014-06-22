@@ -29,7 +29,6 @@ There was substantial data management required for this analysis.  First, five v
 
 
 ---
-
 ## Results
 The out of bag error rate for the resulting random forest model was 2.63%, or 97.37% accuracy.  Class errors for the out of bag data are displayed below in Table 1.
 
@@ -37,11 +36,12 @@ Table 1: Confusion matrix from OOB data
 ```{r, echo=FALSE}
 modFit$confusion
 ```
-The random forest model performed similarly on the validation dataset, predicting the outcome with 97.38% accuracy.  A variable importance plot for this forest is presented in Figure 1.
+The random forest model performed similarly on the validation dataset, predicting the outcome with 97.38% accuracy.  The top 10 variables in terms of importance for this forest are presented in Table 2.
 
 ---
+## Results
 
-
-On the validation dataset the resulting random forest predicted the outcome with 97.38% accuracy.  Class errors for the validation data are displayed below in Table 2.
-
-
+Table 2: Top 10 variables by importance
+```{r, echo=FALSE}
+data.frame(importance)
+```

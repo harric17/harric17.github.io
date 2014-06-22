@@ -85,15 +85,31 @@ There was substantial data management required for this analysis.  First, five v
 ## E   0   1   2   6 552    0.016043
 </code></pre>
 
-<p>The random forest model performed similarly on the validation dataset, predicting the outcome with 97.38% accuracy.  A variable importance plot for this forest is presented in Figure 1.</p>
+<p>The random forest model performed similarly on the validation dataset, predicting the outcome with 97.38% accuracy.  The top 10 variables in terms of importance for this forest are presented in Table 2.</p>
 
   </article>
   <!-- Presenter Notes -->
 </slide>
 
 <slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Results</h2>
+  </hgroup>
   <article data-timings="">
-    <p>On the validation dataset the resulting random forest predicted the outcome with 97.38% accuracy.  Class errors for the validation data are displayed below in Table 2.</p>
+    <p>Table 2: Top 10 variables by importance</p>
+
+<pre><code>##                   importance
+## roll_belt             161.67
+## num_window            152.65
+## pitch_forearm         114.70
+## yaw_belt              106.52
+## magnet_dumbbell_y     103.02
+## magnet_dumbbell_z     101.39
+## pitch_belt             93.01
+## roll_forearm           73.85
+## accel_dumbbell_y       71.35
+## magnet_dumbbell_x      68.88
+</code></pre>
 
   </article>
   <!-- Presenter Notes -->
@@ -123,7 +139,7 @@ There was substantial data management required for this analysis.  First, five v
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=4 title=''>
+        data-slide=4 title='Results'>
          4
       </a>
     </li>

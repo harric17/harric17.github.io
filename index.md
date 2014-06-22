@@ -66,7 +66,7 @@ Table 2: Top 10 variables by importance
 ---
 ## Conclusions
 
-<p>Many potential predictors were excluded from this analysisand moreover the final model was trained on only about 15% of the available data.  Nonetheless a highly accurate model was constructed using random forests.  
+<p>Many potential predictors were excluded from this analysis and moreover the final model was trained on only about 15% of the available data.  Nonetheless a highly accurate model was constructed using random forests.  
 </p>
 <p>Going forward several more investigative analyses could be performed.  For example this data could be further explored using a complete case analysis, which would yeild information about the predictive importance of the variables that were excluded in this analysis due to a large number of missing values.  Another additional future analysis might be creating a random forest using only the most important variables to see if model accuracy was similarly high.  If so this would minimize the amount of data needed to be collected.  A third future analysis might involve ways of better trying to distinguish classes the model had problems with e.g. class D from class C (see Table 1).
 </p>

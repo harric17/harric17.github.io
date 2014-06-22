@@ -62,7 +62,7 @@
 <p>
 There was substantial data management required for this analysis.  First, five variables were excluded as obvious noise: X, problem_id, raw_timestamp_part_1, raw_timestamp_part_2, and cvtd_timestamp.  Next, variables that had exclusively missing values in the test set were also excluded.  This resulted in a dataset with 55 predictor variables, two of which were factors with the remaining numeric. </p>
 
-<p>The training dataset was then ultimately divided.  Using a random uniform number generator a small subset of exactly 3000 observations was used to train the random forest model and the remaining data was set aside for further validation of the model.  Ultimately this smaller training subset contained levels of the factor variables that were not in the test data set, so the two factor variables were also additionally excluded from the analysis.  A forest of 500 trees was created, and the number of variables randomly chosen at each split was left as the default value, which was 7.</p>
+<p>The training dataset was then ultimately divided.  Using a random uniform number generator a small subset of exactly 3000 observations was created and used to train the random forest model.  The remaining data was set aside for further validation of the model.  Ultimately the smaller training subset contained levels of the factor variables that were not in the test data set, so the two factor variables were also excluded from the analysis.  A forest of 500 trees was created, and the number of variables randomly chosen at each split was left as the default value of 7.</p>
 
   </article>
   <!-- Presenter Notes -->

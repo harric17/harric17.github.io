@@ -35,7 +35,12 @@ The out of bag error rate for the resulting random forest model was 2.63%, or 97
 Table 1: Confusion matrix from OOB data
 
 ```
-## Error: attempt to apply non-function
+##     A   B   C   D   E class.error
+## A 851   1   1   0   1    0.003513
+## B  18 535   9   0   1    0.049734
+## C   0  12 514   2   0    0.026515
+## D   1   0  22 469   2    0.050607
+## E   0   1   2   6 552    0.016043
 ```
 The random forest model performed similarly on the validation dataset, predicting the outcome with 97.38% accuracy.  The top 10 variables in terms of importance for this forest are presented in Table 2 on the next slide.  On the test data set, 19 of 20 observations were correctly predicted.
 
@@ -45,5 +50,15 @@ The random forest model performed similarly on the validation dataset, predictin
 Table 2: Top 10 variables by importance
 
 ```
-## Error: attempt to apply non-function
+##                   importance
+## roll_belt             161.67
+## num_window            152.65
+## pitch_forearm         114.70
+## yaw_belt              106.52
+## magnet_dumbbell_y     103.02
+## magnet_dumbbell_z     101.39
+## pitch_belt             93.01
+## roll_forearm           73.85
+## accel_dumbbell_y       71.35
+## magnet_dumbbell_x      68.88
 ```

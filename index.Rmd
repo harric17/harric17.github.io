@@ -26,7 +26,9 @@ There was substantial data management required for this analysis.  First, five v
 
 <p>The training dataset was then ultimately divided.  Using a random uniform number generator a small subset of exactly 3000 observations was used to train the random forest model and the remaining data was set aside for further validation of the model.  Ultimately this smaller training subset contained levels of the factor variables that were not in the test data set, so the two factor variables were also additionally excluded from the analysis.  A forest of 500 trees was created, and the number of variables randomly chosen at each split was left as the default value, which was 7.</p>
 
-
+```{r setup, include=FALSE}
+opts_chunk$set(cache=TRUE)
+``` 
 
 ---
 ## Results
@@ -34,7 +36,7 @@ The out of bag error rate for the resulting random forest model was 2.63%, or 97
 
 Table 1: Confusion matrix from OOB data
 ```{r, echo=FALSE}
-modFit$confusion(cache=TRUE)
+modFit$confusion
 ```
 The random forest model performed similarly on the validation dataset, predicting the outcome with 97.38% accuracy.  The top 10 variables in terms of importance for this forest are presented in Table 2 on the next slide.  On the test data set, 19 of 20 observations were correctly predicted.
 
@@ -43,5 +45,5 @@ The random forest model performed similarly on the validation dataset, predictin
 
 Table 2: Top 10 variables by importance
 ```{r, echo=FALSE}
-data.frame(importance)(cache=TRUE)
+data.frame(importance)
 ```

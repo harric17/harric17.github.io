@@ -20,9 +20,9 @@ A significant challenge to today's data scientists is extracting meaningful insi
 
 ## Methods
 
-The training dataset contained 19622 observations across 160 variables.  The testing set contained 20 observations, though it did not contain information related to the outcome measure.  The outcome variable of interest, classe, is a categorical variable consisting of 5 different levels.   A random forest model was fit to predict this categorical outcome.
-
-There was substantial data management required for this analysis.  First, five variables were excluded as obvious noise: X, problem_id, raw_timestamp_part_1, raw_timestamp_part_2, and cvtd_timestamp.  Next, variables that had exclusively missing values in the test set were also excluded.  This resulted in a dataset with 55 predictor variables, two of which were factors with the remaining numeric. 
+<p>The training dataset contained 19622 observations across 160 variables.  The testing set contained 20 observations, though it did not contain information related to the outcome measure.  The outcome variable of interest, classe, is a categorical variable consisting of 5 different levels.   A random forest model was fit to predict this categorical outcome.</p>
+<p>
+There was substantial data management required for this analysis.  First, five variables were excluded as obvious noise: X, problem_id, raw_timestamp_part_1, raw_timestamp_part_2, and cvtd_timestamp.  Next, variables that had exclusively missing values in the test set were also excluded.  This resulted in a dataset with 55 predictor variables, two of which were factors with the remaining numeric. </p>
 The training dataset was then ultimately divided.  Using a random uniform number generator a small subset of exactly 3000 observations was used to train the random forest model and the remaining data was set aside for further validation of the model.  Ultimately this smaller training subset contained levels of the factor variables that were not in the test data set, so the two factor variables were also additionally excluded from the analysis.  A forest of 500 trees was created, and the number of variables randomly chosen at each split was left as the default value, which was 7.
 
 

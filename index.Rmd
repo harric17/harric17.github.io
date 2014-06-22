@@ -1,6 +1,6 @@
 ---
 title       : Class Project
-subtitle    : Practical Machine Learning/Data Products, June 2014
+subtitle    : Practical Machine Learning, June 2014
 author      : Will Harris
 job         : 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
@@ -11,15 +11,16 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
-## Background
+## Introduction
 
-1. Edit YAML front matter
-2. Write using R Markdown
-3. Use an empty line followed by three dashes to separate slides!
+A significant challenge to today's data scientists is extracting meaningful insights from the large volumes of data that are continuously being collected from a variety of sources.   The goal of this analysis was to develop an accurate algorithm for predicting the manner of exercise being performed by 6 participants based on measurements collected from inexpensive personal activity sensors.
+
 
 --- .class #id 
 
 ## Methods
+
+
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title       : My Project
+title       : My Project, EDIT
 subtitle    : 
 author      : Will Harris
 job         : 

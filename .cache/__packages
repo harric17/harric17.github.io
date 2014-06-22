@@ -1,0 +1,14 @@
+base
+caret
+datasets
+devtools
+e1071
+ggplot2
+graphics
+grDevices
+lattice
+methods
+randomForest
+slidify
+stats
+utils

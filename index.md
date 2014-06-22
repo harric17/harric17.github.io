@@ -29,25 +29,13 @@ The training dataset was then ultimately divided.  Using a random uniform number
 
 ---
 
-## Methods
+## Results
 
-## Table 1
- [1] "num_window"           "roll_belt"            "pitch_belt"          
- [4] "yaw_belt"             "total_accel_belt"     "gyros_belt_x"        
- [7] "gyros_belt_y"         "gyros_belt_z"         "accel_belt_x"        
-[10] "accel_belt_y"         "accel_belt_z"         "magnet_belt_x"       
-[13] "magnet_belt_y"        "magnet_belt_z"        "roll_arm"            
-[16] "pitch_arm"            "yaw_arm"              "total_accel_arm"     
-[19] "gyros_arm_x"          "gyros_arm_y"          "gyros_arm_z"         
-[22] "accel_arm_x"          "accel_arm_y"          "accel_arm_z"         
-[25] "magnet_arm_x"         "magnet_arm_y"         "magnet_arm_z"        
-[28] "roll_dumbbell"        "pitch_dumbbell"       "yaw_dumbbell"        
-[31] "total_accel_dumbbell" "gyros_dumbbell_x"     "gyros_dumbbell_y"    
-[34] "gyros_dumbbell_z"     "accel_dumbbell_x"     "accel_dumbbell_y"    
-[37] "accel_dumbbell_z"     "magnet_dumbbell_x"    "magnet_dumbbell_y"   
-[40] "magnet_dumbbell_z"    "roll_forearm"         "pitch_forearm"       
-[43] "yaw_forearm"          "total_accel_forearm"  "gyros_forearm_x"     
-[46] "gyros_forearm_y"      "gyros_forearm_z"      "accel_forearm_x"     
-[49] "accel_forearm_y"      "accel_forearm_z"      "magnet_forearm_x"    
-[52] "magnet_forearm_y"     "magnet_forearm_z"     "classe"              
+Table 1: Confusion matrix from OOB data
+    A   B   C   D   E class.error
+A 851   1   1   0   1    0.003513
+B  18 535   9   0   1    0.049734
+C   0  12 514   2   0    0.026515
+D   1   0  22 469   2    0.050607
+E   0   1   2   6 552    0.016043
 

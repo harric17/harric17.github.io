@@ -29,10 +29,10 @@ The training dataset was then ultimately divided.  Using a random uniform number
 
 ---
 
-## Methods
+## Results
 
-## Table 1
+Table 1: Confusion matrix from OOB data
 ```{r, results='asis', echo=FALSE}
-names(training2)
+modFit$confusion
 ```
 

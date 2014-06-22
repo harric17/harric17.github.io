@@ -1,6 +1,6 @@
 ---
-title       : My Project, EDIT
-subtitle    : 
+title       : Class Project, June 2014
+subtitle    : Practical Machine Learning/Data Products
 author      : Will Harris
 job         : 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
@@ -21,6 +21,6 @@ knit        : slidify::knit2slides
 
 ## Slide 2
 
-
+---
 
 

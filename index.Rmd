@@ -30,7 +30,8 @@ There was substantial data management required for this analysis.  First, five v
 
 ---
 
-## Results
+## Results, Out of Bag Data
+The out of bag error rate for this random forest model was 2.63%, or 97.37% accuracy.  Class errors for the out of bag data are displayed below in Table 1.
 
 Table 1: Confusion matrix from OOB data
 ```{r, echo=FALSE}

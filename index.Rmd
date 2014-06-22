@@ -29,16 +29,10 @@ The training dataset was then ultimately divided.  Using a random uniform number
 
 ---
 
-## Results
+## Methods
 
-```{r, results='asis', echo=TRUE}
-## Addition
-1 + 1
-## Exponentiation followed by multiplication (BEDMAS)
-4*5^2
-## Area of a circle of radius r=2
-pi*2^2
-## Natural logarithm of 1 multiplied by exponential (function) evaluated at 0
-log(1)*exp(0)
+## Table 1
+```{r, results='asis', echo=FALSE}
+names(training2)
 ```
 

@@ -44,7 +44,7 @@ For the sex variable 1 is female and 2 is male.
 ## How to Use the Shiny App
 This app is pretty straight forward to use.  As long as the user knows how to operate a pulldown menu they should have no problem with this app.
 
-Kaplain-Meier paramter estimates are displayed for both unstratfied and stratified data.  When choosing to stratify on sex the results of the log-rank test are additionally shown.
+Kaplain-Meier parameter estimates are displayed for both unstratfied and stratified data.  When choosing to stratify on sex the results of the log-rank test are additionally shown.
 
 ---
 ## Conclusion
@@ -53,4 +53,14 @@ Though this Shiny app is pretty trivial, its usefulness is clear.  It seems like
 
 ---
 
+## Question 1
+
+<img src="http://i.imgur.com/0Y5Dy7y.jpg">
+Is this the coolest kid ever?
+
+1. _Yes_
+2. No
+
+*** .hint Try Again
+*** .explanation You are totally right.
 

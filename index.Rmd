@@ -1,5 +1,5 @@
 ---
-title       : Developing Data Products
+title       : Developing Data Products Project
 subtitle    : August 2014
 author      : harric17
 job         : 

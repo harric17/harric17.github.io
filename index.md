@@ -1,5 +1,5 @@
 ---
-title       : Developing Data Products
+title       : Developing Data Products Project
 subtitle    : August 2014
 author      : harric17
 job         : 
@@ -11,15 +11,19 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 ---
 
-## Read-And-Delete
+## Introduction
 
-1. Edit YAML front matter
-2. Write using R Markdown
-3. Use an empty line followed by three dashes to separate slides!
+<p>My project Shiny app is hosted at the following website:
+
+http://harric17.shinyapps.io/project/</p>
+
+<p>This is a simple app that uses "melanom" dataset form the ISwR package in R.  The app gets Kaplan-Meier survival parameter estimates based on the stratifications specified.  As long as the user knows how to operate a pulldown menu they should have no problem using this app.</p>
 
 --- .class #id 
 
-## Slide 2
+## Data Set
+
+
 
 
 

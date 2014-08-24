@@ -34,14 +34,16 @@ To save you some trouble here are the variables in the dataset:
 
 ---
 ### Dataset Continued
-In this analysis the variables "days","status", and "sex" are used.  My Shiny app regroups "status" so that levels 2 and 3 are recoded to 0 and considered censored events.  Here a summary of the sex variable:
+In this analysis only the variables "days", "status", and "sex" are used.  The Shiny app regroups "status" so that levels 2 and 3 are recoded to 0 and considered censored events.  Here a summary of the sex variable:
 
 ```r
-level(melanom$sex)
+table(melanom$sex)
 ```
 
 ```
-## Error: could not find function "level"
+## 
+##   1   2 
+## 126  79
 ```
 
 For the sex variable 1 is female and 2 is male.

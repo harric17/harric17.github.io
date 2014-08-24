@@ -77,12 +77,14 @@
     <h3>Dataset Continued</h3>
   </hgroup>
   <article data-timings="">
-    <p>In this analysis the variables &quot;days&quot;,&quot;status&quot;, and &quot;sex&quot; are used.  My Shiny app regroups &quot;status&quot; so that levels 2 and 3 are recoded to 0 and considered censored events.  Here a summary of the sex variable:</p>
+    <p>In this analysis only the variables &quot;days&quot;, &quot;status&quot;, and &quot;sex&quot; are used.  The Shiny app regroups &quot;status&quot; so that levels 2 and 3 are recoded to 0 and considered censored events.  Here a summary of the sex variable:</p>
 
-<pre><code class="r">level(melanom$sex)
+<pre><code class="r">table(melanom$sex)
 </code></pre>
 
-<pre><code>## Error: could not find function &quot;level&quot;
+<pre><code>## 
+##   1   2 
+## 126  79
 </code></pre>
 
 <p>For the sex variable 1 is female and 2 is male.</p>

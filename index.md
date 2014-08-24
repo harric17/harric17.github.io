@@ -31,7 +31,10 @@ To save you the trouble here are the variables:
 ```
 
 
-And here are some summaries of the variables of interest:
+
+---
+### Dataset Continued
+Here are some summaries of the specific variables of interest used in my Shiny app:
 
 ```r
 table(melanom$sex)
@@ -62,5 +65,5 @@ summary(melanom$days)
 ##      10    1520    2000    2150    3040    5560
 ```
 
----
 
+My Shiny app groups the censoring variable "status".  The levels 2 and 3 are recoded to 0 and considered censored events.  Also of note for the sex variable 1 is female and 2 is male.

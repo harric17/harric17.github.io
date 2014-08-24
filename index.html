@@ -68,7 +68,16 @@
 <pre><code>## [1] &quot;no&quot;     &quot;status&quot; &quot;days&quot;   &quot;ulc&quot;    &quot;thick&quot;  &quot;sex&quot;
 </code></pre>
 
-<p>And here are some summaries of the variables of interest:</p>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h3>Dataset Continued</h3>
+  </hgroup>
+  <article data-timings="">
+    <p>Here are some summaries of the specific variables of interest used in my Shiny app:</p>
 
 <pre><code class="r">table(melanom$sex)
 </code></pre>
@@ -93,13 +102,8 @@
 ##      10    1520    2000    2150    3040    5560
 </code></pre>
 
-  </article>
-  <!-- Presenter Notes -->
-</slide>
+<p>My Shiny app groups the censoring variable &quot;status&quot;.  The levels 2 and 3 are recoded to 0 and considered censored events.  Also of note for the sex variable 1 is female and 2 is male.</p>
 
-<slide class="" id="slide-3" style="background:;">
-  <article data-timings="">
-    
   </article>
   <!-- Presenter Notes -->
 </slide>
@@ -122,7 +126,7 @@
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=3 title=''>
+        data-slide=3 title='Dataset Continued'>
          3
       </a>
     </li>

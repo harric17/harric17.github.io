@@ -63,7 +63,7 @@
     <p>More information on the "melanom" dataset can be found in the  <a href="http://cran.r-project.org/web/packages/ISwR/ISwR.pdf">ISwR package documention</a>.  Specifically see page 18.
 </p>
 
-<p>To save you the trouble here are the variables:</p>
+<p>To save you some trouble here are the variables in the dataset:</p>
 
 <pre><code>## [1] &quot;no&quot;     &quot;status&quot; &quot;days&quot;   &quot;ulc&quot;    &quot;thick&quot;  &quot;sex&quot;
 </code></pre>
@@ -77,32 +77,15 @@
     <h3>Dataset Continued</h3>
   </hgroup>
   <article data-timings="">
-    <p>Here are some summaries of the specific variables of interest used in my Shiny app:</p>
+    <p>In this analysis the variables &quot;days&quot;,&quot;status&quot;, and &quot;sex&quot; are used.  My Shiny app regroups &quot;status&quot; so that levels 2 and 3 are recoded to 0 and considered censored events.  Here a summary of the sex variable:</p>
 
-<pre><code class="r">table(melanom$sex)
+<pre><code class="r">level(melanom$sex)
 </code></pre>
 
-<pre><code>## 
-##   1   2 
-## 126  79
+<pre><code>## Error: could not find function &quot;level&quot;
 </code></pre>
 
-<pre><code class="r">table(melanom$status)
-</code></pre>
-
-<pre><code>## 
-##   1   2   3 
-##  57 134  14
-</code></pre>
-
-<pre><code class="r">summary(melanom$days)
-</code></pre>
-
-<pre><code>##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
-##      10    1520    2000    2150    3040    5560
-</code></pre>
-
-<p>My Shiny app groups the censoring variable &quot;status&quot;.  The levels 2 and 3 are recoded to 0 and considered censored events.  Also of note for the sex variable 1 is female and 2 is male.</p>
+<p>For the sex variable 1 is female and 2 is male.</p>
 
   </article>
   <!-- Presenter Notes -->

@@ -24,7 +24,7 @@ knit        : slidify::knit2slides
 <p>More information on the "melanom" dataset can be found in the  <a href="http://cran.r-project.org/web/packages/ISwR/ISwR.pdf">ISwR package documention</a>.  Specifically see page 18.
 </p>
 
-To save you the trouble here are the variables:
+To save you some trouble here are the variables in the dataset:
 ```{r, echo=FALSE}
 # install.packages("ISwR")
 library("ISwR")
@@ -34,11 +34,8 @@ names(melanom)
 
 ---
 ### Dataset Continued
-Here are some summaries of the specific variables of interest used in my Shiny app:
+In this analysis the variables "days","status", and "sex" are used.  My Shiny app regroups "status" so that levels 2 and 3 are recoded to 0 and considered censored events.  Here a summary of the sex variable:
 ```{r, echo=TRUE}
-table(melanom$sex)
-table(melanom$status)
-summary(melanom$days)
+level(melanom$sex)
 ```
-
-My Shiny app groups the censoring variable "status".  The levels 2 and 3 are recoded to 0 and considered censored events.  Also of note for the sex variable 1 is female and 2 is male.
+For the sex variable 1 is female and 2 is male.

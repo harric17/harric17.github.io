@@ -32,7 +32,7 @@ names(melanom)
 ```
 
 And here are some summaries of the variables of interest:
-```{r}
+```{r, echo=FALSE}
 table(melanom$sex)
 table(melanom$status)
 summary(melanom$days)

@@ -40,21 +40,17 @@ There was substantial data management required for this analysis.  First, five v
 
 <p>The training dataset was then ultimately divided.  Using a random uniform number generator a small subset of exactly 3000 observations was created and used to train the random forest model.  The remaining data was set aside for further validation of the model.  Ultimately the smaller training subset contained levels of the factor variables that were not in the test data set, so the two factor variables were also excluded from the analysis.  A forest of 500 trees was created, and the number of variables randomly chosen at each split was left as the default value of 7.</p>
 
-
+```{r setup, include=FALSE}
+opts_chunk$set(cache=TRUE)
+``` 
 
 ---
 ## Results
 The out of bag error rate for the resulting random forest model was 2.63%, or 97.37% accuracy.  Class errors for the out of bag data are displayed below in Table 1.
 
 Table 1: Confusion matrix from OOB data
-
-```
-##     A   B   C   D   E class.error
-## A 851   1   1   0   1    0.003513
-## B  18 535   9   0   1    0.049734
-## C   0  12 514   2   0    0.026515
-## D   1   0  22 469   2    0.050607
-## E   0   1   2   6 552    0.016043
+```{r, echo=FALSE}
+modFit$confusion
 ```
 The random forest model performed similarly well on the validation dataset, predicting the outcome with 97.38% accuracy.  The top 10 variables in terms of importance for this forest are presented in Table 2 on the next slide.  On the test data set, 19 of 20 observations were correctly predicted.
 
@@ -62,19 +58,8 @@ The random forest model performed similarly well on the validation dataset, pred
 ## Results
 
 Table 2: Top 10 variables by importance
-
-```
-##                   importance
-## roll_belt             161.67
-## num_window            152.65
-## pitch_forearm         114.70
-## yaw_belt              106.52
-## magnet_dumbbell_y     103.02
-## magnet_dumbbell_z     101.39
-## pitch_belt             93.01
-## roll_forearm           73.85
-## accel_dumbbell_y       71.35
-## magnet_dumbbell_x      68.88
+```{r, echo=FALSE}
+data.frame(importance)
 ```
 
 ---

@@ -27,5 +27,5 @@ knit        : slidify::knit2slides
 <p>This is a simple app that uses "melanom" dataset form the ISwR package in R.  The app gets Kaplan-Meier survival parameter estimates based on the stratifications specified.  As long as the user knows how to operate a pulldown menu they should have no problem using this app.</p>
 
 
-
+---
 

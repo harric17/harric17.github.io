@@ -1,8 +1,4 @@
 ---
-<<<<<<< HEAD
-title       : This is the title
-subtitle    : 
-author      : Will Harris
 =======
 title       : Class Project
 subtitle    : Developing Data Products, June 2014

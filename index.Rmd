@@ -53,14 +53,6 @@ Though this Shiny app is pretty trivial, its usefulness is clear.  It seems like
 
 ---
 
-## Quiz
+## The End
 
-<img src="http://i.imgur.com/0Y5Dy7y.jpg" height="100" width="100">
-<p>Is this the coolest kid ever?</p>
-
-1. _Yes_
-2. No
-
-*** .hint Try Again
-*** .explanation You are totally right.
-
+<center><img src="http://i.imgur.com/0Y5Dy7y.jpg" height="200" width="200"></center>

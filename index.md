@@ -21,7 +21,10 @@ knit        : slidify::knit2slides
 
 ## Data Set
 
+<p>More information on the "melanom" dataset can be found in the  <a href="http://cran.r-project.org/web/packages/ISwR/ISwR.pdf">ISwR package documention</a>.  Specifically see page 18.
+</p>
 
+<p>This is a simple app that uses "melanom" dataset form the ISwR package in R.  The app gets Kaplan-Meier survival parameter estimates based on the stratifications specified.  As long as the user knows how to operate a pulldown menu they should have no problem using this app.</p>
 
 
 

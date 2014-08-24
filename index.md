@@ -4,7 +4,7 @@ title       : This is the title
 subtitle    : 
 =======
 title       : Class Project
-subtitle    : XXXX, June 2014
+subtitle    : Practical Machine Learning, June 2014
 >>>>>>> FETCH_HEAD
 author      : Will Harris
 job         : 

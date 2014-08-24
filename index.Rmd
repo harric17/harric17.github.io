@@ -2,11 +2,11 @@
 <<<<<<< HEAD
 title       : This is the title
 subtitle    : 
-author      : Will Harrisssdcfkjd
+author      : Will Harris
 =======
 title       : Class Project
-subtitle    : Practical Machine Learning, June 2014
-author      : Will Harris
+subtitle    : Developing Data Products, June 2014
+author      : harric17
 >>>>>>> FETCH_HEAD
 job         : 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}

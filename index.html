@@ -65,24 +65,28 @@
 
 <p>To save you the trouble here are the variables:</p>
 
-<pre><code class="r"># install.packages(&#39;ISwR&#39;)
-library(&quot;ISwR&quot;)
-names(melanom)
-</code></pre>
-
 <pre><code>## [1] &quot;no&quot;     &quot;status&quot; &quot;days&quot;   &quot;ulc&quot;    &quot;thick&quot;  &quot;sex&quot;
 </code></pre>
 
 <p>And here are some summaries of the variables of interest:</p>
+
+<pre><code class="r">table(melanom$sex)
+</code></pre>
 
 <pre><code>## 
 ##   1   2 
 ## 126  79
 </code></pre>
 
+<pre><code class="r">table(melanom$status)
+</code></pre>
+
 <pre><code>## 
 ##   1   2   3 
 ##  57 134  14
+</code></pre>
+
+<pre><code class="r">summary(melanom$days)
 </code></pre>
 
 <pre><code>##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 

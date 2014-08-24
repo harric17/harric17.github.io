@@ -26,12 +26,6 @@ knit        : slidify::knit2slides
 
 To save you the trouble here are the variables:
 
-```r
-# install.packages('ISwR')
-library("ISwR")
-names(melanom)
-```
-
 ```
 ## [1] "no"     "status" "days"   "ulc"    "thick"  "sex"
 ```
@@ -39,16 +33,28 @@ names(melanom)
 
 And here are some summaries of the variables of interest:
 
+```r
+table(melanom$sex)
+```
+
 ```
 ## 
 ##   1   2 
 ## 126  79
 ```
 
+```r
+table(melanom$status)
+```
+
 ```
 ## 
 ##   1   2   3 
 ##  57 134  14
+```
+
+```r
+summary(melanom$days)
 ```
 
 ```

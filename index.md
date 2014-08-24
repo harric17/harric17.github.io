@@ -24,8 +24,49 @@ knit        : slidify::knit2slides
 <p>More information on the "melanom" dataset can be found in the  <a href="http://cran.r-project.org/web/packages/ISwR/ISwR.pdf">ISwR package documention</a>.  Specifically see page 18.
 </p>
 
-<p>This is a simple app that uses "melanom" dataset form the ISwR package in R.  The app gets Kaplan-Meier survival parameter estimates based on the stratifications specified.  As long as the user knows how to operate a pulldown menu they should have no problem using this app.</p>
+To save you the trouble here are the variables:
 
+```r
+# install.packages('ISwR')
+library("ISwR")
+names(melanom)
+```
+
+```
+## [1] "no"     "status" "days"   "ulc"    "thick"  "sex"
+```
+
+
+And here are some summaries of the variables of interest:
+
+```r
+table(melanom$sex)
+```
+
+```
+## 
+##   1   2 
+## 126  79
+```
+
+```r
+table(melanom$status)
+```
+
+```
+## 
+##   1   2   3 
+##  57 134  14
+```
+
+```r
+summary(melanom$days)
+```
+
+```
+##    Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+##      10    1520    2000    2150    3040    5560
+```
 
 ---
 

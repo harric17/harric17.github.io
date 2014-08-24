@@ -34,7 +34,7 @@ To save you some trouble here are the variables in the dataset:
 
 ---
 ## Dataset Continued
-In this analysis only the variables "days", "status", and "sex" are used.  The Shiny app regroups "status" so that levels 2 and 3 are recoded to 0 and considered censored events.  Here a summary of the sex variable:
+In this analysis only the variables "days", "status", and "sex" are used.  The Shiny app regroups "status" so that levels 2 and 3 are recoded to 0 and considered censored events.  Here a summary of the sex variable which is used for stratification:
 
 ```r
 table(melanom$sex)

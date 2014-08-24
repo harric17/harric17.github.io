@@ -15,7 +15,7 @@ knit        : slidify::knit2slides
 <p>My project Shiny app is hosted at <a href="http://harric17.shinyapps.io/project/">this website</a>.
 </p>
 
-<p>This is a simple app that uses "melanom" dataset form the ISwR package in R.  The app gets Kaplan-Meier survival parameter estimates based on the stratifications specified.  As long as the user knows how to operate a pulldown menu they should have no problem using this app.</p>
+<p>This is a simple app that uses "melanom" dataset form the ISwR package in R.  The app gets Kaplan-Meier survival parameter estimates based on the stratifications specified.  </p>
 
 --- .class #id 
 
@@ -33,7 +33,7 @@ To save you some trouble here are the variables in the dataset:
 
 
 ---
-### Dataset Continued
+## Dataset Continued
 In this analysis only the variables "days", "status", and "sex" are used.  The Shiny app regroups "status" so that levels 2 and 3 are recoded to 0 and considered censored events.  Here a summary of the sex variable:
 
 ```r
@@ -47,3 +47,18 @@ table(melanom$sex)
 ```
 
 For the sex variable 1 is female and 2 is male.
+
+---
+## How to Use the Shiny App
+This app is pretty straight forward to use.  As long as the user knows how to operate a pulldown menu they should have no problem with this app.
+
+Kaplain-Meier paramter estimates are displayed for both unstratfied and stratified data.  When choosing to stratify on sex the results of the log-rank test are additionally shown.
+
+---
+## Conclusion
+
+Though this Shiny app is pretty trivial, its usefulness is clear.  It seems like an excellent tool for facilitating both exploration of data as well as communication between programmers/statisticians and other interested parties (e.g. scientists).
+
+---
+
+

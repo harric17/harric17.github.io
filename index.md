@@ -1,12 +1,8 @@
----
-<<<<<<< HEAD
-title       : This is the title
-subtitle    : 
+
 =======
 title       : Class Project
 subtitle    : Practical Machine Learning, June 2014
->>>>>>> FETCH_HEAD
-author      : Will Harris
+author      : harric17
 job         : 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
 highlighter : highlight.js  # {highlight.js, prettify, highlight}
